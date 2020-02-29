@@ -1,6 +1,6 @@
-import ChicagoPizzaStore from "./pizzas/creators/stores/chicago";
-import NYPizzaStore from "./pizzas/creators/stores/new-york";
-import { pizzaType } from "./pizzas/models/types";
+import ChicagoPizzaStore from "./creators/stores/chicago";
+import NYPizzaStore from "./creators/stores/new-york";
+import { pizzaType } from "./models/types";
 
 describe("Testing Pizza Stores franchise", () => {
   describe("Testing chicago pizza store", () => {
