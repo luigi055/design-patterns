@@ -1,4 +1,4 @@
-import Light from "./light";
+import Light from "./receiver/light";
 import LightRemote from "./invokers/light-remote";
 import TurnLightOnCommand from "./commands/turn-light-on-command";
 import TurnLightOffCommand from "./commands/turn-light-off-command";
