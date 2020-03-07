@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "npx ts-node ./src/index.ts",
+    "start:iterator": "npx ts-node ./src/iterator/word-iterator/index.ts",
     "test": "npx jest",
     "test:watch": "npm test -- --watch"
   },
