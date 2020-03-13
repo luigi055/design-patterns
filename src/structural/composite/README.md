@@ -6,11 +6,11 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 
 ### Original UML from GOF
 
-![](../../umls/composite.jpg)
+![](../../../umls/composite.jpg)
 
 ### Improved structured based on interface instead of a abstract class
 
-![](../../umls/composite-enhanced.png)
+![](../../../umls/composite-enhanced.png)
 
 This structure doesn't violate the Interface Segregation Principal since the Leaf and Component are both interfaces of Component and only uses the method we'll need.
 

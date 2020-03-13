@@ -1,8 +1,12 @@
 # Builder
 
-is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+It's a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
 Use the Builder Pattern to encapsulate the construction of a product and allow it to be constructed in steps.
+
+## Structure UML
+
+![](../../../umls/builder.jpg)
 
 ## Benefits of Builder
 
