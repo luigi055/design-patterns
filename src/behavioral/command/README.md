@@ -2,6 +2,10 @@
 
 The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 
+## Structure UML
+
+![](../../../umls/command.gif)
+
 ## Actors:
 
 **Commands**: The Command interface declares a method for executing a command,some commands can implement simple operations on their own. However, some commands can delegate more complex operations to other objects, called "receivers."
