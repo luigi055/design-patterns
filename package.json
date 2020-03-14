@@ -14,7 +14,7 @@
     "typescript": "^3.5.2"
   },
   "scripts": {
-    "start": "npx ts-node ./src/index.ts",
+    "start": "npx ts-node ./src/structural/facade/examples/home-theater/client.ts",
     "test": "npx jest",
     "test:watch": "npm test -- --watch"
   },
