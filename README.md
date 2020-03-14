@@ -4,30 +4,30 @@
 
 - [Creational](./src/creational)
 
-  - Singleton
-  - Factory Method
-  - Builder
-  - Abstract Factory
-  - Prototype
+  - [Singleton](./src/creational/singleton)
+  - [Factory Method](./src/creational/factory-method)
+  - [Builder](./src/creational/builder)
+  - [Abstract Factory](./src/creational/abstract-factory)
+  - [Prototype](./src/creational/prototype)
 
 - [Structural](./src/structural)
 
-  - Decorator
-  - Bridge
-  - Composite
-  - Facade
-  - Adapter
-  - Flyweight
-  - Proxy
+  - [Decorator](./src/structural/decorator)
+  - [Bridge](./src/structural/bridge)
+  - [Composite](./src/structural/composite)
+  - [Facade](./src/structural/facade)
+  - [Adapter](./src/structural/adapter)
+  - [Flyweight](./src/structural/flyweight)
+  - [Proxy](./src/structural/proxy)
 
 - [Behavioral](./src/behavioral)
   - Chain of Responsibility
-  - Command
-  - Observer
+  - [Command](./src/behavioral/command)
+  - [Observer](./src/behavioral/observer)
   - Visitor
   - Mediator
-  - Iterator
-  - State
+  - [Iterator](./src/behavioral/iterator)
+  - [State](./src/behavioral/state)
   - Template Method
   - Strategy
   - Memento
