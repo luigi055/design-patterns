@@ -10,9 +10,11 @@ Lets you copy existing objects without making your code dependent on their class
 
 ## Actors
 
-- Prototype
+- **Prototype**
   declares an interface for cloning itself
-- ConcretePrototype (Color)
+
+- **ConcretePrototype**
   implements an operation for cloning itself
-- Client
+
+- **Client**
   creates a new object by asking a prototype to clone itself

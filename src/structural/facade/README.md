@@ -12,13 +12,16 @@ The Facade class provides a simple interface to the complex logic of one or seve
 
 ## Actors
 
-- Facade
-  knows which subsystem classes are responsible for a request.
-  delegates client requests to appropriate subsystem objects.
-- Subsystem classes
-  implement subsystem functionality.
-  handle work assigned by the Facade object.
-  have no knowledge of the facade and keep no reference to it.
+- **Facade**
+
+  - knows which subsystem classes are responsible for a request.
+  - delegates client requests to appropriate subsystem objects.
+
+- **Subsystem classes**
+
+  - implement subsystem functionality.
+  - handle work assigned by the Facade object.
+  - have no knowledge of the facade and keep no reference to it.
 
 ## Motivation
 

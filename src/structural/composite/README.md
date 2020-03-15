@@ -12,7 +12,7 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 
 ![](../../../umls/composite-enhanced.png)
 
-This structure doesn't violate the Interface Segregation Principal since the Leaf and Component are both interfaces of Component and only uses the method we'll need.
+This structure doesn't violate the Interface Segregation Principal since the Leaf and Component are both interfaces of Component and they are only use the method they're going to need.
 
 ## Actors:
 

@@ -8,14 +8,14 @@ Provides a unified interface that allows objects with incompatible interfaces to
 
 ## Actors
 
-- Target
+- **Target**
   defines the domain-specific interface that Client uses.
 
-- Client
+- **Client**
   collaborates with objects conforming to the Target interface.
 
-- Adaptee
+- **Adaptee**
   contains some useful behavior, but its interface is incompatible with the existing client code. The Adaptee needs some adaptation before the client code can use it.
 
-- Adapter
+- **Adapter**
   adapts the interface of Adaptee to the Target interface.
