@@ -1,3 +1,13 @@
+class Context {
+  constructor(private strategy: Strategy) {
+    this.strategy = strategy;
+  }
+
+  public contextInterface(): void {
+    this.strategy.algorithmInterface();
+  }
+}
+
 abstract class Strategy {
   public abstract algorithmInterface(): void;
 }
@@ -17,16 +27,6 @@ class ConcreteStrategyB extends Strategy {
 class ConcreteStrategyC extends Strategy {
   public algorithmInterface(): void {
     console.log("Called ConcreteStrategyC.algorithmInterface()");
-  }
-}
-
-class Context {
-  constructor(private strategy: Strategy) {
-    this.strategy = strategy;
-  }
-
-  public contextInterface(): void {
-    this.strategy.algorithmInterface();
   }
 }
 
