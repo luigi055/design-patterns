@@ -1,4 +1,4 @@
-import SportStrategy from "./strategy";
+import SportStrategy from "../sport-strategy";
 
 export default class Soccer implements SportStrategy {
   public begin(): void {

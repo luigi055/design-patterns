@@ -1,4 +1,4 @@
-import SportStrategy from "./strategy";
+import SportStrategy from "../sport-strategy";
 
 class MultiSports implements SportStrategy {
   private sports: SportStrategy[];

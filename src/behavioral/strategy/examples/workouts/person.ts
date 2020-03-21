@@ -1,4 +1,4 @@
-import SportStrategy from "./strategies/strategy";
+import SportStrategy from "./sport-strategy";
 
 class Person {
   constructor(public name: string, private favoriteWorkout: SportStrategy) {}
