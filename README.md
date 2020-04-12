@@ -21,16 +21,16 @@
   - [Proxy](./src/structural/proxy)
 
 - [Behavioral](./src/behavioral)
-  - Chain of Responsibility
+  - [Chain of Responsibility](./src/behavioral/chain-of-responsibility)
   - [Command](./src/behavioral/command)
   - [Observer](./src/behavioral/observer)
   - Visitor
   - Mediator
   - [Iterator](./src/behavioral/iterator)
   - [State](./src/behavioral/state)
-  - Template Method
-  - Strategy
-  - Memento
+  - [Template Method](./src/behavioral/template-method)
+  - [Strategy](./src/behavioral/strategy)
+  - [Memento](./src/behavioral/memento)
 
 ## References
 
