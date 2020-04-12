@@ -24,13 +24,14 @@
   - [Chain of Responsibility](./src/behavioral/chain-of-responsibility)
   - [Command](./src/behavioral/command)
   - [Observer](./src/behavioral/observer)
-  - Visitor
-  - Mediator
+  - [Interpreter](./src/behavioral/interpreter)
+  - [Mediator](./src/behavioral/mediator)
   - [Iterator](./src/behavioral/iterator)
   - [State](./src/behavioral/state)
   - [Template Method](./src/behavioral/template-method)
   - [Strategy](./src/behavioral/strategy)
   - [Memento](./src/behavioral/memento)
+  - [Visitor](./src/behavioral/visitor)
 
 ## References
 
